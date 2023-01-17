@@ -7,6 +7,7 @@ export default function App({ Component, pageProps }: AppProps) {
 		<>
 			<Component {...pageProps} />
 			<Cursor />
+			<div className="noise-bg"></div>
 		</>
 	)
 }
