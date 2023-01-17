@@ -15,12 +15,16 @@
 		"jsx": "preserve",
 		"incremental": true,
 		"baseUrl": ".",
-		// "baseUrl": "src/",
 		"paths": {
 			"@/*": ["./src/*"]
 		}
 	},
-	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+	"include": [
+		"next-env.d.ts",
+		"**/*.ts",
+		"**/*.tsx",
+		"src/components/D3Cursor/D3Cursor.jsx"
+	],
 	"exclude": ["node_modules"]
 }
 
